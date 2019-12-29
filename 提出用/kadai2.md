@@ -5,21 +5,26 @@
 図1 原画像のグレースケール変換
 
 画像を2階調に変換するためには、以下のように行う。
+
 IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
+
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_2.png)  
 図1 2階調画像
 
 画像を4階調に変換するためには、以下のように行う。
+
 IMG0 = ORG>64;
 IMG1 = ORG>128;
 IMG2 = ORG>192;
 IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
+
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_3.png)  
 図1 4階調画像
 
 画像を8階調に変換するためには、以下のように行う。
+
 IMG0 = ORG>32;
 IMG1 = ORG>64;
 IMG2 = ORG>96;
@@ -29,5 +34,6 @@ IMG5 = ORG>192;
 IMG6 = ORG>224;
 IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
+
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_4.png)  
 図1 8階調画像
