@@ -28,3 +28,6 @@ end;
 
 IMG = ORG > max_thres;  
 imagesc(IMG); colormap(gray); colorbar;  
+  
+![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai5/kadai5_2.png)  
+図1 判別分析法で変換した画像
