@@ -1,8 +1,8 @@
 # 課題2レポート
-原画像を読み込み、グレースケールに変換した結果を図1に示す。
+原画像を読み込み、白黒濃淡画像に変換した結果を図1に示す。
 
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_1.png)  
-図1 原画像のグレースケール変換
+図1 変換された白黒濃淡画像
 
 画像を2階調に変換するためには、以下のように行う。
 
