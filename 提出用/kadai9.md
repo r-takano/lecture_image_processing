@@ -16,10 +16,10 @@ IMG = filter2(fspecial('average',3),ORG);
 メディアンフィルタでノイズを除去した結果を図4に示す。  
 IMG = medfilt2(ORG,[3 3]);  
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai9/kadai9_4.png)  
-図3 メディアンフィルタを用いた画像
+図4 メディアンフィルタを用いた画像
 
 フィルタを適用し鮮鋭化した結果を図5に示す。  
 f=[0,-1,0;-1,5,-1;0,-1,0];  
 IMG = filter2(f,IMG,'same');  
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai9/kadai9_5.png)  
-図3 フィルタを用いた画像
+図5 フィルタを用いた画像
