@@ -10,7 +10,7 @@ IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_2.png)  
-図1 2階調画像
+図2 2階調画像
 
 画像を4階調に変換するためには、以下のように行う。
 
@@ -21,7 +21,7 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_3.png)  
-図1 4階調画像
+図3 4階調画像
 
 画像を8階調に変換するためには、以下のように行う。
 
@@ -36,4 +36,4 @@ IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai2/kadai2_4.png)  
-図1 8階調画像
+図4 8階調画像
