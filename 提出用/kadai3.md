@@ -25,4 +25,4 @@ imagesc(IMG); colormap(gray); colorbar;
 IMG = ORG > 192;  
 imagesc(IMG); colormap(gray); colorbar;  
 ![原画像](https://github.com/r-takano/lecture_image_processing/blob/master/picture/kadai3/kadai3_5.png)  
-図4 閾値128で処理した画像
+図5 閾値192で処理した画像
